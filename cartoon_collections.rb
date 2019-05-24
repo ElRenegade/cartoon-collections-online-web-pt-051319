@@ -7,8 +7,7 @@ def summon_captain_planet(array)# code an argument here
 end
 
 def long_planeteer_calls(array)
-  array.find{|word| if condition
-    word.length > 4
+  array.find{|word| if word.length > 4
     return true
   end}
 end
